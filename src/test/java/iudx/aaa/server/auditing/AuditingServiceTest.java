@@ -23,13 +23,11 @@ import io.vertx.junit5.VertxTestContext;
 import iudx.aaa.server.configuration.Configuration;
 import java.time.ZonedDateTime;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 /** Unit tests for auditing service. */
-@Disabled
 @ExtendWith({VertxExtension.class})
 public class AuditingServiceTest {
   private static AuditingService auditingService;
